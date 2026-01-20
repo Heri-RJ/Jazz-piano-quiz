@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Le quiz des musiciens</title>
+  <link rel="stylesheet" href="music quiz.css">
+</head>
+<body>
+  <h1>🎷 Jazz Piano Quiz (4 questions)</h1>
+  <p><em>Ce quiz a été créé par Heriniaina Rajaonary, musicien et développeur. Bon quiz à vous !</em></p>
+  <div class="twoFiveOne">
+  <h4>1. Dans une progression II–V–I en Do majeur, quels sont les accords corrects ?</h4>
+  
+  <button onclick="rightAnswer()">A. Dm7 – G7 – Cmaj7</button>
+  <button onclick="ansTwo()">B. D7 – Gmaj7 – C7</button>
+  <button onclick="ansTwo()">Dm – Gm – C</button>
+  <button onclick="ansTwo()">Fmaj7 – G7 – Cmaj7</button><br>
+
+  <p id="showAnswer"><strong></strong></p>
+  </div>
+
+  <div class="Shell-voicings">
+    <h4>2. Quel est le rôle principal des shell voicings au piano jazz ?</h4>
+    <button onclick="ansTwo()">A. Jouer toutes les notes possibles</button>
+    <button onclick="ansTwo()">B. Remplacer la mélodie</button><br>
+    <button onclick="rightAnswerTwo()">C. Donner la couleur harmonique avec 2-3 notes</button>
+    <button onclick="ansTwo()">D. Servir uniquement pour les solos rapides</button>
+
+    <p id="showAnswerTwo"><strong></strong></p>
+  </div>
+
+  <div class="Tritone-Sub">
+    <h4>3. Qu’est-ce qu’un tritone substitution ?</h4>
+    <button onclick="ansTwo()">A. Remplacer un accord majeur par un mineur</button>
+    <button onclick="rightAnswerThree()">B. Remplacer un V7 par un autre V7 situé à un triton</button><br>
+    <button onclick="ansTwo()">C. Ajouter une note chromatique</button>
+    <button onclick="ansTwo()">D. Jouer deux mains à l’unisson</button>
+
+    <p id="showAnswerThree"></p>
+  </div>
+
+  <div class="Minor-Resolution">
+    <h4>4. Sur Autumn Leaves en sol mineur, quel est le II–V–I mineur correct ?</h4>
+    <button onclick="ansTwo()">A. Am7 – D7 – Gm7</button>
+    <button onclick="rightAnswerFour()">B. Am7♭5 – D7 – Gm6 / Gm7</button>
+    <button onclick="ansTwo()">C. A7 – D7 – Gm7</button>
+    <button onclick="ansTwo()">D. Cm7 – F7 – Bbmaj7</button>
+
+    <p id="showAnswerFour"></p>
+  </div>
+
+  <script src="music quiz.js">
+
+  </script>
+</body>
+</html>
